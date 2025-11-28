@@ -24,6 +24,12 @@ public class DetallePedido {
         return idDetalle;
     }
 
+    public  void calcularSubTotal(){
+        Double sub = 0.0;
+        sub = precioUnitario * cantidad;
+
+        this.subTotal = sub;
+    }
     public void setIdDetalle(Long idDetalle) {
         this.idDetalle = idDetalle;
     }

@@ -20,6 +20,13 @@ public class Pedido {
         this.total = total = 0.0;
         this.cliente = cliente;
     }
+    public void calcularTotal(){
+        Double total = 0.0;
+        for(DetallePedido d: detalles){
+            total = d.getSubTotal();
+        }
+        this.total = total;
+    }
     public void agregarDetalle(DetallePedido detalle){
         this.detalles.add(detalle);
     }
