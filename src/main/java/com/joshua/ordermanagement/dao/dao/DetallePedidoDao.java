@@ -1,4 +1,4 @@
-package com.joshua.ordermanagement.dao;
+package com.joshua.ordermanagement.dao.dao;
 
 import com.joshua.ordermanagement.model.DetallePedido;
 

@@ -1,4 +1,4 @@
-package com.joshua.ordermanagement.dao;
+package com.joshua.ordermanagement.dao.dao;
 
 public interface CrudDao<T> {
     void create(T entity);
